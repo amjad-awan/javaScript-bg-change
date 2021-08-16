@@ -11,9 +11,10 @@
 .main-area ul
 {
     display: flex;
-    justify-content: space-between;
+    //justify-content: space-between;
     padding: 20px 50px;
     flex-wrap: wrap;
+    
 }
 
 .main-area ul li{
@@ -22,6 +23,7 @@
     padding: 20px;
     color: white;
     cursor: pointer;
+    flex:1;
 }
 
 .main-area .color-change
