@@ -1,0 +1,33 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+   
+
+.main-area ul
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+
+.main-area ul li{
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-area .color-change
+{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
+}
