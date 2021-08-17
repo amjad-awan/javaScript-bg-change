@@ -6,7 +6,10 @@
 }
 
 
-   
+.main-area
+{
+    height: 100vh;
+}
 
 .main-area ul
 {
@@ -26,10 +29,25 @@
     flex:1;
 }
 
+.dorotate
+{
+    //transform: scale(1.5);
+    animation-duration:.3s;
+    animation-name: exp;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes exp {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(25deg);}
+    50% {transform: rotate(50deg);}
+    75% {transform: rotate(-25deg);}
+    100% {transform: rotate(deg);}
+  }
 .main-area .color-change
 {
     background-color: red;
     width: 100%;
-    height: 100vh;
-}
+    height:100vh;
 }
